@@ -1,0 +1,18 @@
+README
+
+A program to crawl wikipedia and find Strongly connected components in the graph. 
+Created for my Algorithms class. Partnered with Ben Meeder for this assignment.
+
+TO RUN. 
+Define starting wikipeda page in Wiki_Crawler Main, 
+Define how "far" out the graph should go in Wiki_Crawler Main
+Define the text file for the graph to be output to.
+
+Wiki_Crawler crawler = new Wiki_Crawler("/wiki/Computer_Science", 500, "WikiCS.txt");
+/wiki/Computer_Science - > start page
+500 -> number of node to go out. (NOT number of max nodes)
+WikiCS.txt -> text output. 
+
+ Ben Meeder wrote most of Wiki_Crawler, 
+ I wrote most of Graph Processor. 
+
